@@ -6,9 +6,6 @@
   "mixins": [
     "ModEntityDataSaver"
   ],
-  "client": [
-    "ExampleMixin"
-  ],
   "injectors": {
     "defaultRequire": 1
   }
