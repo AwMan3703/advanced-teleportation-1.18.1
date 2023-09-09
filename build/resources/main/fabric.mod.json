@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "tutorialmod",
+  "version": "0.0.1-1.18.1",
+
+  "name": "Tutorial Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Aw Man3703"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/advancedtp/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.awman.advancedtp.AdvancedTp"
+    ],
+    "client": [
+      "net.awman.advancedtp.AdvancedTpClient"
+    ]
+  },
+  "mixins": [
+    "tutorialmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

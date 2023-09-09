@@ -26,12 +26,14 @@ public class TpWaypointCommand {
     }
 
     private static int run(CommandContext<ServerCommandSource> context) throws CommandSyntaxException {
-        IEntityDataSaver player = (IEntityDataSaver)context.getSource().getPlayer();
+        context.getSource().sendFeedback(new LiteralText("Command disabled"), true);
+        /*IEntityDataSaver player = (IEntityDataSaver) context.getSource().getPlayer();
 
         final String waypointId = getString(context, "waypoint_id");
 
         // not 0 means it contains SOMETHING
         int[] waypointCoords = player.getPersistentData().getIntArray(waypointId);
+
         if(waypointCoords.length != 0) {
             int[] playerPos = player.getPersistentData().getIntArray(waypointId);
             context.getSource().getPlayer().requestTeleport(playerPos[0], playerPos[1], playerPos[2]);
@@ -42,6 +44,7 @@ public class TpWaypointCommand {
         else {
             context.getSource().sendFeedback(new LiteralText("That waypoint doesn't exist!"), true);
             return -1;
-        }
+        }*/
+        return 1;
     }
 }

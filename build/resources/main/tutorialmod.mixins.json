@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.awman.advancedtp.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "ModEntityDataSaver"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
