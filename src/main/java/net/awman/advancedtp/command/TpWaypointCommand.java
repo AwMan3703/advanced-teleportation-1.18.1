@@ -4,6 +4,7 @@ import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
+import net.awman.advancedtp.AdvancedTp;
 import net.awman.advancedtp.util.IEntityDataSaver;
 import net.minecraft.server.command.CommandManager;
 import net.minecraft.server.command.ServerCommandSource;
@@ -23,10 +24,10 @@ public class TpWaypointCommand {
         IEntityDataSaver player = (IEntityDataSaver)context.getSource().getPlayer();
 
         final String waypointId = getString(context, "waypoint_id");
-
+        AdvancedTp.LOGGER.debug(waypointId);
         // not 0 means it contains SOMETHING
-        int[] waypointCoords = player.getPersistentData().getIntArray(waypointId );
-
+        int[] waypointCoords = player.getPersistentData().getIntArray(waypointId);
+        AdvancedTp.LOGGER.debug(waypointCoords);
         if(waypointCoords.length != 0) {
             int[] playerPos = player.getPersistentData().getIntArray(waypointId);
             context.getSource().getPlayer().requestTeleport(playerPos[0], playerPos[1], playerPos[2]);
