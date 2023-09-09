@@ -4,7 +4,6 @@ import net.awman.advancedtp.command.SetWaypointCommand;
 import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
 import net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents;
 import net.awman.advancedtp.command.ReturnHomeCommand;
-import net.awman.advancedtp.command.SetHomeCommand;
 import net.awman.advancedtp.event.ModPlayerEventCopyFrom;
 
 public class ModRegistries {
@@ -14,7 +13,6 @@ public class ModRegistries {
     }
 
     private static void registerCommands() {
-        CommandRegistrationCallback.EVENT.register(SetHomeCommand::register);
         CommandRegistrationCallback.EVENT.register(ReturnHomeCommand::register);
         CommandRegistrationCallback.EVENT.register(SetWaypointCommand::register);
     }

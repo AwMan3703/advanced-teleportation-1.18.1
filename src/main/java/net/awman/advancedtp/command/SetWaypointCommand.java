@@ -12,7 +12,6 @@ import net.minecraft.text.LiteralText;
 import net.minecraft.util.math.BlockPos;
 
 import static com.mojang.brigadier.arguments.StringArgumentType.getString;
-import static com.mojang.brigadier.builder.RequiredArgumentBuilder.argument;
 
 public class SetWaypointCommand {
     public static void register(CommandDispatcher<ServerCommandSource> dispatcher, boolean dedicated) {
