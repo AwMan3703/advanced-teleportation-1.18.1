@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2eccf3f-e14a-4ba8-8956-01b94e6c2709" name="Changes" comment="&quot;if something doesn't work, just delete it and refactor.&quot; -me">
+    <list default="true" id="e2eccf3f-e14a-4ba8-8956-01b94e6c2709" name="Changes" comment="ballin'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/tutorialmod.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tutorialmod.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/command/SetWaypointCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/command/SetWaypointCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,13 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694293211782</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ballin'">
+      <created>1694293411655</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694293411655</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updates" />
     <MESSAGE value="updates people, updates" />
     <MESSAGE value="&quot;if something doesn't work, just delete it and refactor.&quot; -me" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;if something doesn't work, just delete it and refactor.&quot; -me" />
+    <MESSAGE value="ballin'" />
+    <option name="LAST_COMMIT_MESSAGE" value="ballin'" />
   </component>
 </project>
