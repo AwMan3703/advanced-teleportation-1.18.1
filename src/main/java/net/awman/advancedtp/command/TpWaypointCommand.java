@@ -28,12 +28,10 @@ public class TpWaypointCommand {
     private static int run(CommandContext<ServerCommandSource> context) throws CommandSyntaxException {
         IEntityDataSaver player = (IEntityDataSaver)context.getSource().getPlayer();
 
-        MinecraftClient mc = MinecraftClient.getInstance();
         final String waypointId = getString(context, "waypoint_id");
-        mc.inGameHud.addChatMessage(MessageType.SYSTEM, net.minecraft.text.Text.of(waypointId), UUID.fromString(""));
+
         // not 0 means it contains SOMETHING
         int[] waypointCoords = player.getPersistentData().getIntArray(waypointId);
-        mc.inGameHud.addChatMessage(MessageType.SYSTEM, net.minecraft.text.Text.of(waypointCoords.toString()), UUID.fromString(""));
         if(waypointCoords.length != 0) {
             int[] playerPos = player.getPersistentData().getIntArray(waypointId);
             context.getSource().getPlayer().requestTeleport(playerPos[0], playerPos[1], playerPos[2]);
