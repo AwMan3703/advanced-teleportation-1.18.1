@@ -5,10 +5,15 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import net.awman.advancedtp.AdvancedTp;
+import net.awman.advancedtp.AdvancedTpClient;
 import net.awman.advancedtp.util.IEntityDataSaver;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.network.MessageType;
 import net.minecraft.server.command.CommandManager;
 import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.text.LiteralText;
+
+import java.util.UUID;
 
 import static com.mojang.brigadier.arguments.StringArgumentType.getString;
 
@@ -23,11 +28,12 @@ public class TpWaypointCommand {
     private static int run(CommandContext<ServerCommandSource> context) throws CommandSyntaxException {
         IEntityDataSaver player = (IEntityDataSaver)context.getSource().getPlayer();
 
+        MinecraftClient mc = MinecraftClient.getInstance();
         final String waypointId = getString(context, "waypoint_id");
-        AdvancedTp.LOGGER.debug(waypointId);
+        mc.inGameHud.addChatMessage(MessageType.SYSTEM, net.minecraft.text.Text.of(waypointId), UUID.fromString(""));
         // not 0 means it contains SOMETHING
         int[] waypointCoords = player.getPersistentData().getIntArray(waypointId);
-        AdvancedTp.LOGGER.debug(waypointCoords);
+        mc.inGameHud.addChatMessage(MessageType.SYSTEM, net.minecraft.text.Text.of(waypointCoords.toString()), UUID.fromString(""));
         if(waypointCoords.length != 0) {
             int[] playerPos = player.getPersistentData().getIntArray(waypointId);
             context.getSource().getPlayer().requestTeleport(playerPos[0], playerPos[1], playerPos[2]);
