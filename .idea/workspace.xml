@@ -4,7 +4,208 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2eccf3f-e14a-4ba8-8956-01b94e6c2709" name="Changes" comment="" />
+    <list default="true" id="e2eccf3f-e14a-4ba8-8956-01b94e6c2709" name="Changes" comment="updates">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/AdvancedTpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/TutorialClientMod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/TutorialMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/AdvancedTp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/block/ModBlocks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/block/custom/GrapeVineBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/block/custom/ModDoorBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/block/custom/ModPressurePlateBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/block/custom/ModStairsBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/block/custom/ModStoneButtonBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/block/custom/ModTrapdoorBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/block/custom/MythrilLampBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/block/custom/SpeedyBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/item/ModArmorMaterials.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/item/ModFoodComponents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/item/ModItemGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/item/ModToolMaterials.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/item/custom/DataTabletItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/item/custom/DowsingRodItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/item/custom/ModArmorItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/item/custom/ModAxeItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/item/custom/ModHoeItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/item/custom/ModPickaxeItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/item/custom/ModSlownessSwordItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/mixin/ExampleMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/mixin/ExampleMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/painting/ModPaintings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/util/ModRegistries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/util/ModRegistries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/awman/advancedtp/util/ModTags.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/deepslate_mythril_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/grape_vine.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/kaupen_door.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/kaupen_trapdoor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/lilac_flower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/mythril_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/mythril_button.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/mythril_fence.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/mythril_fence_gate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/mythril_lamp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/mythril_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/mythril_pressure_plate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/mythril_slab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/mythril_stairs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/mythril_wall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/netherrack_mythril_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/potted_lilac_flower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/raw_mythril_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/speedy_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/blockstates/winter_window.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/lang/en_us.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/deepslate_mythril_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/grape_vine0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/grape_vine1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/grape_vine2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/grape_vine3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/grape_vine4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/grape_vine5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/grape_vine6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/grape_vine7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/kaupen_door_bottom.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/kaupen_door_bottom_hinge.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/kaupen_door_top.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/kaupen_door_top_hinge.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/kaupen_trapdoor_bottom.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/kaupen_trapdoor_open.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/kaupen_trapdoor_top.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/lilac_flower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_button.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_button_inventory.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_button_pressed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_fence_gate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_fence_gate_open.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_fence_gate_wall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_fence_gate_wall_open.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_fence_inventory.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_fence_post.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_fence_side.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_lamp_off.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_lamp_on.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_pressure_plate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_pressure_plate_down.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_slab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_slab_top.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_stairs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_stairs_inner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_stairs_outer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_wall_inventory.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_wall_post.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_wall_side.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/mythril_wall_side_tall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/netherrack_mythril_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/potted_lilac_flower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/raw_mythril_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/speedy_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/block/winter_window.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/data_tablet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/deepslate_mythril_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/dowsing_rod.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/grape.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/grape_seeds.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/kaupen_door.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/kaupen_trapdoor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/kaupenbow.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/kaupenbow_pulling_0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/kaupenbow_pulling_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/kaupenbow_pulling_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/lilac_flower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/lilac_flower_bulb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/magic_mythril_dust.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_button.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_fence.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_fence_gate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_ingot.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_lamp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_nugget.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_pressure_plate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_slab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_stairs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_sword.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/mythril_wall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/netherrack_mythril_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/raw_mythril.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/raw_mythril_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/speedy_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/winter_window.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/deepslate_mythril_ore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/grape_vine0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/grape_vine1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/grape_vine2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/grape_vine3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/grape_vine4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/grape_vine5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/grape_vine6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/grape_vine7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/kaupen_door_bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/kaupen_door_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/kaupen_trapdoor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/lilac_flower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/mythril_block.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/mythril_lamp_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/mythril_lamp_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/mythril_ore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/netherrack_mythril_ore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/raw_mythril_block.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/speedy_block.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/winter_window.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/data_tablet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/dowsing_rod.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/grape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/grape_seeds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/kaupen_door.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/kaupenbow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/kaupenbow_pulling_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/kaupenbow_pulling_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/kaupenbow_pulling_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/lilac_flower_bulb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/magic_mythril_dust.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/magic_mythril_dust.png.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/mythril_axe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/mythril_boots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/mythril_chestplate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/mythril_helmet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/mythril_hoe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/mythril_ingot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/mythril_leggings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/mythril_nugget.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/mythril_pickaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/mythril_shovel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/mythril_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/raw_mythril.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/c/tags/items/mythril_ingots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/fences.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/axe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_diamond_tool.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_iron_tool.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_stone_tool.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/walls.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tutorialmod/loot_tables/blocks/grape_vine.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tutorialmod/loot_tables/blocks/mythril_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tutorialmod/loot_tables/blocks/mythril_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tutorialmod/recipes/mythril_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tutorialmod/recipes/mythril_ingot_from_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tutorialmod/tags/blocks/dowsing_rod_detectable_blocks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,11 +233,21 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2VAFDYmCHAWj3kyDF8Iilu270aN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -51,6 +262,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
@@ -64,5 +276,9 @@
       <updated>1694270865542</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
 </project>
