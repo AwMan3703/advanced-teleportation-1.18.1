@@ -11,6 +11,7 @@ import net.minecraft.text.LiteralText;
 
 import static com.mojang.brigadier.arguments.StringArgumentType.getString;
 
+// This is the [/waypoint tp <name>] command, used to teleport the player to a specific waypoint
 public class TpWaypointCommand {
     // Register the command:
     public static void register(CommandDispatcher<ServerCommandSource> dispatcher, boolean dedicated) {

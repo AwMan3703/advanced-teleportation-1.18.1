@@ -13,6 +13,8 @@ import net.minecraft.util.math.BlockPos;
 
 import static com.mojang.brigadier.arguments.StringArgumentType.getString;
 
+// This is the [/waypoint set <name>] command, used to create a new waypoint
+// at the player's current coordinates.
 public class SetWaypointCommand {
     // Register the command:
     public static void register(CommandDispatcher<ServerCommandSource> dispatcher, boolean dedicated) {
