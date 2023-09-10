@@ -4,6 +4,7 @@ import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
+import net.awman.advancedtp.AdvancedTp;
 import net.awman.advancedtp.util.IEntityDataSaver;
 import net.minecraft.server.command.CommandManager;
 import net.minecraft.server.command.ServerCommandSource;
@@ -25,7 +26,7 @@ public class TpWaypointCommand {
                         .then(CommandManager.argument("waypoint_id", StringArgumentType.string()))
 
                             // When the command is sent, execute the run() method
-                            .executes(TpWaypointCommand::run)));
+                            .executes(context -> run(context))));//, getString(context, "waypoint_id")))));
     }
 
     // When the command is executed:
@@ -34,7 +35,7 @@ public class TpWaypointCommand {
         IEntityDataSaver player = (IEntityDataSaver) context.getSource().getPlayer();
 
         // Get the waypoint id from the command
-        final String waypointId = getString(context, "waypoint_id");
+        final String waypointId = AdvancedTp.MOD_ID + "_waypoint_" + getString(context, "waypoint_id");
 
         // Get the waypoint position from the player's persistentData.
         // This is achieved by requesting an IntArray, with the waypoint_id as key
