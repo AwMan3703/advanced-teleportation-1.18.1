@@ -29,7 +29,7 @@ public class TpWaypointCommand {
 
     // When the command is executed:
     private static int run(CommandContext<ServerCommandSource> context) throws CommandSyntaxException {
-        // Get the player handle, to read their persistent data
+        // Get the player's dataSaver interface, to read their persistent data
         IEntityDataSaver player = (IEntityDataSaver) context.getSource().getPlayer();
 
         // Get the waypoint id from the command
@@ -43,10 +43,10 @@ public class TpWaypointCommand {
         if(waypointCoords.length > 0) {
 
             // Get the waypoint's coordinates
-            int[] playerPos = player.getPersistentData().getIntArray(waypointId);
+            //int[] playerPos = player.getPersistentData().getIntArray(waypointId);
 
             // Teleport the player there
-            context.getSource().getPlayer().requestTeleport(playerPos[0], playerPos[1], playerPos[2]);
+            context.getSource().getPlayer().requestTeleport(waypointCoords[0], waypointCoords[1], waypointCoords[2]);
 
             // Write feedback in chat ("Teleported to <waypoint id>")
             context.getSource().sendFeedback(new LiteralText("Teleported to " + waypointId + "!"), true);

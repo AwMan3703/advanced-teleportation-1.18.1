@@ -29,14 +29,22 @@ public class SetWaypointCommand {
                                 .executes(SetWaypointCommand::run))));
     }
 
+    // When the command is executed:
     public static int run(CommandContext<ServerCommandSource> context) throws CommandSyntaxException {
+        // Get the player's dataSaver interface, to read their persistent data
         IEntityDataSaver player = (IEntityDataSaver)context.getSource().getPlayer();
+
+        // Get the player's position, as a BlockPos object
         BlockPos playerPos = context.getSource().getPlayer().getBlockPos();
+
+        // Save an array containing the position in the player's persistentData
+        player.getPersistentData().putIntArray(AdvancedTp.MOD_ID + "waypoint_" + getString(context, "waypoint_id"),
+                new int[] {playerPos.getX(), playerPos.getY(), playerPos.getZ()});
+
+        // Create a string representing the player's position
         String pos = "(" + playerPos.getX() + ", " + playerPos.getY() + ", " + playerPos.getZ() + ")";
 
-        player.getPersistentData().putIntArray(AdvancedTp.MOD_ID + "waypoint_" + getString(context, "waypoint_id"),
-                new int[] {playerPos.getX(), playerPos.getY(), playerPos.getZ() });
-
+        // Write feedback in chat, letting the player know that the waypoint was saved
         context.getSource().sendFeedback(new LiteralText("Set new waypoint (" + getString(context, "waypoint_id") + ") at " + pos), true);
         return 1;
     }
