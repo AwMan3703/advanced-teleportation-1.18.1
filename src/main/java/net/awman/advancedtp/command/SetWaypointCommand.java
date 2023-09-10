@@ -14,10 +14,18 @@ import net.minecraft.util.math.BlockPos;
 import static com.mojang.brigadier.arguments.StringArgumentType.getString;
 
 public class SetWaypointCommand {
+    // Register the command:
     public static void register(CommandDispatcher<ServerCommandSource> dispatcher, boolean dedicated) {
+        // Register under the /waypoint command
         dispatcher.register(CommandManager.literal("waypoint")
+
+                // Register as "set" (/waypoint set)
                 .then(CommandManager.literal("set")
+
+                        // Take a custom string (the waypoint's id) as argument (/waypoint tp <waypoint_id>)
                         .then(CommandManager.argument("waypoint_id", StringArgumentType.string())
+
+                                // When the command is sent, execute the run() method
                                 .executes(SetWaypointCommand::run))));
     }
 

@@ -17,7 +17,7 @@ public class TpWaypointCommand {
         // Register under the  /waypoint command
         dispatcher.register(CommandManager.literal("waypoint")
 
-                // Register as "run" (/waypoint tp)
+                // Register as "tp" (/waypoint tp)
                 .then(CommandManager.literal("tp")
 
                         // Take a custom string (the waypoint's id) as argument (/waypoint tp <waypoint_id>)
