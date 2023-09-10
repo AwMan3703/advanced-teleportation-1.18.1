@@ -12,13 +12,22 @@ import net.minecraft.text.LiteralText;
 import static com.mojang.brigadier.arguments.StringArgumentType.getString;
 
 public class TpWaypointCommand {
+    // Register the command:
     public static void register(CommandDispatcher<ServerCommandSource> dispatcher, boolean dedicated) {
+        // Register under the  /waypoint command
         dispatcher.register(CommandManager.literal("waypoint")
+
+                // Register as "run" (/waypoint tp)
                 .then(CommandManager.literal("tp")
+
+                        // Take a custom string (the waypoint's id) as argument (/waypoint tp <waypoint_id>)
                         .then(CommandManager.argument("waypoint_id", StringArgumentType.string()))
+
+                            // When the command is sent, execute the run() method
                             .executes(TpWaypointCommand::run)));
     }
 
+    // When the command is executed:
     private static int run(CommandContext<ServerCommandSource> context) throws CommandSyntaxException {
         // Get the player handle, to read their persistent data
         IEntityDataSaver player = (IEntityDataSaver) context.getSource().getPlayer();
